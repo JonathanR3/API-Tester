@@ -1,0 +1,150 @@
+.nav {
+  background-color: #474F7A;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  padding: 0 1rem;
+  width: 1500px;
+  margin: auto;
+}
+
+.nav ul {
+  font-size: 40px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: auto;
+}
+
+.nav a {
+  color: #D5FFD0;
+  text-decoration: none;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  align-items: center;
+  display: flex;
+  padding: 20px 20px;
+}
+
+.nav #home-link {
+  background-image: none;
+  display: inline-block;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  background-image: linear-gradient(to bottom, #0C356A , #474F7A);
+  border-radius: 10px 10px 0 0; 
+
+}
+
+.logo {
+  height: 100px;
+  margin-top: 5px;
+  margin-right: 100px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+  margin-left: 50px;
+  font-size: 50px;
+}
+
+.pokemon-cards {
+  margin: 50px;
+}
+
+.pokemon-card {
+  margin: 150px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.pokemon-card .pokemon-image {
+  max-width: 100px;
+  max-height: 100px;
+  margin-top: 10px;
+}
+
+.pokemon-card .pokemon-name:first-letter {
+  text-transform: uppercase;
+}
+.pokemon-card .pokemon-name {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;  
+  color: black;
+  max-height: 1em;
+  font-weight: bold;
+}
+
+.ability-cards {
+  margin: 50px;
+  background-color: black;
+}
+
+.ability-card {
+  background-color: blue;
+  margin: 150px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.ability-card .ability-name {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;  
+  color: black;
+  max-height: 1em;
+  font-weight: bold;
+}
+
+.ability-card .ability-effect {
+  margin: 150px;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.pagination a:hover {
+  background-color: #D5FFD0 ;
+}
+
+.pagination a {
+  font-family: "Poppins", sans-serif;
+  border-radius: 5px;
+  margin: 1px;
+  color: #c0eefc;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: #0C356A;
+  display: inline-block;
+  padding: 10px;
+}
+
+
+#page-indicator {
+  align-items: center;
+  font-size: 20px;
+  color: #0C356A;
+  font-family: "Poppins", sans-serif;
+  text-decoration: underline;
+  background-color: transparent;
+}
+
+.pagination #page-indicator a:hover {
+  background-color: tranparent;
+
+}
